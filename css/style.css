@@ -1,0 +1,318 @@
+@font-face{
+    src: url(../font/Canela/Canela-RegularItalic.otf);
+    font-family: 'Canela-RegularItalic';
+}
+
+@font-face{
+    src: url(../font/Canela/Canela-MediumItalic.otf);
+    font-family: 'Canela-Medium';
+}
+
+@font-face{
+    src: url(../font/Canela/Canela-LightItalic.otf);
+    font-family: 'Canela-Light';
+}
+
+@font-face{
+    src: url(../font/Canela/Canela-ThinItalic.otf);
+    font-family: 'Canela-Thin';
+}
+
+@font-face{
+    src: url(../font/HelveticaNowText/Monotype\ -\ Helvetica\ Now\ Text.otf);
+    font-family: 'Helvetica-Regular';
+}
+
+@font-face{
+    src: url(../font/HelveticaNowText/Monotype\ -\ Helvetica\ Now\ Text\ Light.otf);
+    font-family: 'Helvetica-Light';
+}
+
+@font-face{
+    src: url(../font/HelveticaNowText/Monotype\ -\ Helvetica\ Now\ Text\ Medium.otf);
+    font-family: 'Helvetica-Medium';
+}
+
+@font-face{
+    src: url(../font/HelveticaNowText/Monotype\ -\ Helvetica\ Now\ Text\ XLt\ It.otf);
+    font-family: 'helvetica-XLt';
+
+}
+
+@font-face{
+    src: url(../font/HelveticaNowText/Monotype\ -\ Helvetica\ Now\ Text\ ExtraLight.otf);
+    font-family: 'Helvetica-XLight';
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+nav{
+    display: flex;
+    min-height: 200px;
+    padding: 40px 0px 40px 0px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#divLogo{
+    width: 50%;
+
+}
+
+#divLogo h1{
+    font-family: 'Helvetica-Regular';
+    font-size: 100px;
+    display: initial;
+}
+
+#divLogo p{
+    font-family: 'Helvetica-Medium';
+    font-size: 18px;
+    margin-top: 30px;
+    padding-left: 5px;
+    color: rgb(71, 71, 71);
+}
+
+#divList{
+    width: 50%;
+        padding-left: 400px;
+}
+#divList li{
+    font-size: 40px;
+    font-family: 'Helvetica-Light';
+    margin: 22px auto ;
+}
+
+.hello{
+    display: flex;
+    min-height: 200px;
+    padding: 40px 0px 80px 0px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 80px;
+}
+
+.line{
+    border-bottom: 1px solid grey;
+}
+#divtext h2{
+    font-family: 'Helvetica-Regular';
+    font-size: 100px;
+}
+
+#divtext{
+    width: 60%;
+    margin-left: auto;
+}
+
+#divtext p{
+    font-size: 32px;
+    font-family: 'Helvetica-Light';
+    margin-top: 40px;
+    width: 70%;
+    }
+
+#div4 {
+    
+    width: 50%;  
+}
+
+#divtry{
+    font-family: 'Canela-Thin';
+    font-size: 46px; 
+    color: rgb(108, 107, 107);
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 40%;
+}
+
+#divtry p{
+    padding-top: 120px;
+    padding-right: 130px;
+}
+
+
+.image{
+ min-height: auto;
+    padding: 40px 0px 80px 0px;
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 1px solid grey;
+
+}
+img {
+    width: 100%;
+    
+    object-fit: contain;
+    padding-top: 40px;
+    
+}
+
+#divimagee p{
+font-family: 'Helvetica-Light';
+font-size: 20px;
+}
+
+h3{
+    font-family: 'Canela-Light';
+    font-size: 70px;
+    color: rgb(89, 89, 89);
+}
+
+#imagee p{
+    font-family: 'Helvetica-Light';
+    font-size: 20px;
+}
+
+#experience{
+    min-height: auto;
+    padding: 40px 0px 40px 0px;
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 1px solid grey;
+
+}
+
+h4{
+    font-family: 'Canela-Light';
+    font-size: 70px;
+    color: rgb(89, 89, 89);
+}
+
+
+.acon100cia{
+    font-family: 'Helvetica-Light';
+    font-size: 28px;
+    margin-top: 30px;
+
+}
+
+.listwork{
+    font-family: 'Helvetica-XLight';
+    font-size: 22px;
+    margin-top: 24px;
+}
+
+.listwork li{
+    margin: 18px auto ;
+}
+
+#photography{
+    min-height: auto;
+    padding: 40px 0px 80px 0px;
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 1px solid grey;
+  
+}
+
+h5{
+    font-family: 'Canela-Light';
+    font-size: 70px;
+    color: rgb(89, 89, 89);
+
+}
+
+#photography p{
+    font-size: 20px;
+    font-family: 'Helvetica-Light';
+    margin-top: 16px;
+}
+#photography p {
+    color:#272B2F;
+    text-decoration: none
+  }
+
+a {
+    color: black;   
+ text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+#photography a:hover {
+    color:#696767;
+    font-weight: 900;
+  }
+
+#photos{
+    display: flex;
+    align-content: center;
+    margin-right: 10px;
+}
+
+#photo1{
+    height: 674px;
+    width: 662px;
+    margin-right: 40px;
+}
+
+#photo2{
+    height: 674px;
+    width: 662px; 
+}
+
+h6{
+    font-family: 'Canela-Light';
+    font-size: 70px;
+    color: rgb(89, 89, 89);
+}
+
+#contact p{
+    font-size: 20px;
+    font-family: 'Helvetica-Light';
+    margin-top: 16px;
+    
+}
+
+
+
+.contacts{
+    min-height: auto;
+    padding: 40px 0px 80px 0px;
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 1px solid grey;
+
+}
+
+.mobile-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    height: 100vh;}
+    
+
+@media only screen and (max-width: 414px) {
+    .desktop-screen{
+        display: none;
+    }
+  
+}
+@media only screen and (min-width: 415px) {
+
+    .desktop-screen{
+        display: block;}
+    
+        .mobile-screen{
+            display: none;
+        }
+
+    
+}
+
+
+
+
+
+
+
+
